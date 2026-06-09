@@ -3,32 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Roilhi Ibarra | Software </title>
+    <title>Roilhi Ibarra | Software</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/x-icon" href="/img/Logo_RFIH.ico">
 </head>
 <body>
     <div class="horizontal-menu-box">
-    <nav class="horizontal-menu">
+        <nav class="horizontal-menu">
             <ul>
-                <li> <a href="index.html" class="no-style"> HOME </a> </li>
-                <li> <a href="biography.html" class="no-style"> BIOGRAPHY </a> </li>
-                <li> <a href="research.html" class="no-style"> RESEARCH </a> </li>
-                <li> <a href="students.html" class="no-style"> STUDENTS </a> </li>
-                <li class="horizontal-menu active"> SOFTWARE </li>
-                <li> <a href="teaching_tutorials.html" class="no-style"> TEACHING & TUTORIALS </a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="biography.html">BIOGRAPHY</a></li>
+                <li><a href="research.html">RESEARCH</a></li>
+                <li><a href="students.html">STUDENTS</a></li>
+                <li class="active"><a href="portfolio.html">SOFTWARE</a></li>
+                <li><a href="teaching_tutorials.html">TEACHING & TUTORIALS</a></li>
             </ul>
         </nav>
         <div class="slider-container">
-            EN <label class="switch">
-                 <input type="checkbox">
-                 <span class="slider"> </span>
-             </label>
-             ES
-         </div>
+            EN 
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+            ES
+        </div>
     </div>
-        <footer>
-            <p> &copy; Roilhi Ibarra 2025 </p>
+
+    <div class="content-container">
+        <h2 style="font-size: 36px; margin-bottom: 20px; font-weight: 800; letter-spacing: -0.02em;">Software & Algorithms</h2>
+        <p style="font-size: 16px; color: var(--text-secondary); margin-bottom: 40px; max-width: 700px;">
+            Open-source implementations, scientific scripts, and algorithms developed during research fellowships in wireless communication systems and biomedical signal processing.
+        </p>
+        
+        <div class="grid-3" style="margin-bottom: 40px;">
+            <!-- Project 1 -->
+            <div class="card">
+                <span class="pub-category">6G Communications</span>
+                <h3 style="margin-top: 5px;">MIMO Deep Learning Detector</h3>
+                <p style="margin-top: 10px; flex-grow: 1; font-size: 14px;">
+                    Efficient deep learning-based detection scheme for Multiple-Input Multiple-Output (MIMO) communication systems, optimizing detection latency and bit error rate performance.
+                </p>
+                <div class="tag-container" style="margin-top: 15px; margin-bottom: 20px;">
+                    <span class="tag tag-accent">Python</span>
+                    <span class="tag tag-accent">PyTorch</span>
+                    <span class="tag">MIMO</span>
+                    <span class="tag">DNN</span>
+                </div>
+                <div style="display: flex; gap: 8px;">
+                    <a href="https://github.com/roilhi" target="_blank" class="btn btn-secondary" style="padding: 8px 14px; font-size: 11px; border-radius: 20px; flex: 1;">
+                        GitHub
+                    </a>
+                    <a href="https://doi.org/10.3390/s25030669" target="_blank" class="btn btn-primary" style="padding: 8px 14px; font-size: 11px; border-radius: 20px; flex: 1.2;">
+                        Related Paper
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="card">
+                <span class="pub-category">Wireless Networks</span>
+                <h3 style="margin-top: 5px;">RIS-MIMO 6G Optimizer</h3>
+                <p style="margin-top: 10px; flex-grow: 1; font-size: 14px;">
+                    Simulation and performance optimization frameworks for Reconfigurable Intelligent Surface (RIS)-assisted multiuser MIMO wireless systems, focusing on beamforming and phase optimization.
+                </p>
+                <div class="tag-container" style="margin-top: 15px; margin-bottom: 20px;">
+                    <span class="tag tag-accent">MATLAB</span>
+                    <span class="tag tag-accent">Python</span>
+                    <span class="tag">RIS Optimization</span>
+                    <span class="tag">6G</span>
+                </div>
+                <div style="display: flex; gap: 8px;">
+                    <a href="https://github.com/roilhi" target="_blank" class="btn btn-secondary" style="padding: 8px 14px; font-size: 11px; border-radius: 20px; flex: 1;">
+                        GitHub
+                    </a>
+                    <a href="https://doi.org/10.1002/9781394250141.ch5" target="_blank" class="btn btn-primary" style="padding: 8px 14px; font-size: 11px; border-radius: 20px; flex: 1.2;">
+                        Book Chapter
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="card">
+                <span class="pub-category">Biomedical Signals</span>
+                <h3 style="margin-top: 5px;">Heart Sound Segmenter</h3>
+                <p style="margin-top: 10px; flex-grow: 1; font-size: 14px;">
+                    Advanced audio processing pipelines for heart sound segmentation and classification using spectral change detection, genetic algorithms, and combined time-frequency representations.
+                </p>
+                <div class="tag-container" style="margin-top: 15px; margin-bottom: 20px;">
+                    <span class="tag tag-accent">Python</span>
+                    <span class="tag tag-accent">Scikit-Learn</span>
+                    <span class="tag">Librosa</span>
+                    <span class="tag">Audio DSP</span>
+                </div>
+                <div style="display: flex; gap: 8px;">
+                    <a href="https://github.com/roilhi" target="_blank" class="btn btn-secondary" style="padding: 8px 14px; font-size: 11px; border-radius: 20px; flex: 1;">
+                        GitHub
+                    </a>
+                    <a href="https://doi.org/10.1016/j.bspc.2020.102208" target="_blank" class="btn btn-primary" style="padding: 8px 14px; font-size: 11px; border-radius: 20px; flex: 1.2;">
+                        Related Paper
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Roilhi Ibarra 2026</p>
     </footer>
 </body>
 </html>

@@ -3,82 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roilhi Ibarra | Biography </title>
+    <title>Roilhi Ibarra | Biography</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/x-icon" href="/img/Logo_RFIH.ico">
 </head>
 <body>
     <div class="horizontal-menu-box">
-    <nav class="horizontal-menu">
+        <nav class="horizontal-menu">
             <ul>
-                <li> <a href="index.html" class="no-style">  HOME  </li>
-                <li class="horizontal-menu active"> <a href="biography.html" class="no-style"> BIOGRAPHY </a> </li>
-                <li> <a href="research.html" class="no-style"> RESEARCH </a> </li>
-                <li> <a href="students.html" class="no-style"> STUDENTS </a> </li>
-                <li> <a href="portfolio.html" class="no-style"> SOFTWARE </a></li>
-                <li> <a href="teaching_tutorials.html" class="no-style"> TEACHING & TUTORIALS </a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li class="active"><a href="biography.html">BIOGRAPHY</a></li>
+                <li><a href="research.html">RESEARCH</a></li>
+                <li><a href="students.html">STUDENTS</a></li>
+                <li><a href="portfolio.html">SOFTWARE</a></li>
+                <li><a href="teaching_tutorials.html">TEACHING & TUTORIALS</a></li>
             </ul>
         </nav>
         <div class="slider-container">
-            EN <label class="switch">
-                 <input type="checkbox">
-                 <span class="slider"> </span>
-             </label>
-             ES
-         </div>
-    </div>
-        <div class="prof_pic"> 
-            <img src="roilhi_profile.jpg" alt="profile_pic" style="width:250px;height:250px;" class="badge_image">
+            EN 
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+            ES
         </div>
-    <div class="bio-container">
-        <h2> Roilhi Ibarra </h2>
-        <h3> Postdoctoral Research Fellowship </h3>
-        <h2> Research interests </h2>
-        <ul>
-            <li> Artificial intelligence for the enhancement of 6G communications in physical layer </li>
-            <li> Machine learning for RIS-aided wireless systems </li>
-            <li> Beamforming & signal detection for RIS-aided communications </li>
-            <li> Design of deep learning signal detection for MIMO systems </li>
-            <li> Machine learning for audio classification </li>
-            <li> Signal processing for audio signals </li>
-            <li> Algorithms for the analysis of cardiac sounds </li>
-        </ul>
-
-        <a href="Roilhi_ExtendedCV.pdf" download> Download CV </a>
-
-        <h2> Short bio </h2>
-        <p>
-        <b> Roilhi Frajo Ibarra-Hernández </b> received the BEng degree in Electronics and Telecommunications from 
-        Universidad Autónoma de Zacatecas (UAZ) in 2012, the MSc in 2015 and in 2019 the PhD degree in Telecommunications 
-        from the Center of Scientific Research and Higher Education of Ensenada (CICESE). During his doctoral studies, he made a
-        research stay at the INRIA Research Center in Rennes, France joining the <a href="https://team.inria.fr/panama/team-members/"> 
-        PANAMA </a> team as former member. Here, the research conducted was in signal processing methods for the automatic classification 
-        of audio signals based on sparse representations.
-        In 2021, he participated as postdoctoral researcher in the <a href="https://tzuku.cicese.mx/"> TZUKU </a> project from 2021 to 2022 for research 
-        in computing methods for the analysis and classification of behavioral contexts in rescue and assistance dogs. 
-        </p>
-        <p>
-        From 2022 to 2025 he is a Postdoctoral Researcher with the <a href="http://www.fc.uaslp.mx/"> Faculty of Science </a> of the Autonomous 
-        University of San Luis Potosi (UASLP), conducting research on Artificial Intelligence and Machine Learning methods for 6G 
-        Communication Systems aided by Reconfigurable Intelligent Surfaces (RIS).
-        </p>
-        <!-- <p> He is currently a full-time professor at the Faculty of Engineering in the National Autonomous University
-            of Mexico (UNAM).
-        </p>-->
-        <h2> Awards and achievements </h2>
-        <ul> 
-            <li> National System Of Researchers (SNI): Candidate level award since 2022 </li>
-            <li> Postdoctoral Research Scolarship: Estancias Postdoctorales por México SEHCITI 2022-2025</li>
-            <li> Postdoctoral Research Scolarship: Proyecto TZUKU Ciencia de Frontera </li>
-            <li> Doctoral Visit Scolarship: Bourse de Mobilité des Doctorants for Mobility in France 2018 </li>
-            <li> Doctoral Visit Scolarship: Beca Mixta CONAHCYT for Mobility in France 2018 </li>
-            <li> Doctoral Scolarship: CONACYT 2015-2019 </li>
-            <li> M.Sc. Scolarship: CONACYT 2012-2015</li>
-        </ul>
-
     </div>
+
+    <div class="bio-container">
+        <div class="grid-2">
+            <!-- Left Column: Profile Card -->
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 30px;">
+                <div class="prof-pic-container">
+                    <div class="prof-pic-frame"></div>
+                    <img src="roilhi_profile.jpg" alt="Dr. Roilhi Ibarra" class="badge_image">
+                </div>
+                <div style="text-align: center;">
+                    <h2>Roilhi Frajo Ibarra</h2>
+                    <h3 style="color: var(--accent); font-weight: 500; font-size: 16px; margin-top: 5px;">Postdoctoral Research Fellow</h3>
+                </div>
+                <a href="Roilhi_ExtendedCV.pdf" download class="btn btn-primary">
+                    Download CV &darr;
+                </a>
+            </div>
+            
+            <!-- Right Column: Biography Details -->
+            <div>
+                <h3 class="section-title">Biography</h3>
+                <p style="margin-bottom: 20px; font-size: 15px; color: var(--text-secondary);">
+                    <strong>Roilhi Frajo Ibarra-Hernández</strong> received the BEng degree in Electronics and Telecommunications from Universidad Autónoma de Zacatecas (UAZ) in 2012, the MSc in 2015, and the PhD degree in Telecommunications from the Center of Scientific Research and Higher Education of Ensenada (CICESE) in 2019.
+                </p>
+                <p style="margin-bottom: 20px; font-size: 15px; color: var(--text-secondary);">
+                    During his doctoral studies, he undertook a research stay at the INRIA Research Center in Rennes, France, joining the PANAMA team. In 2021, he joined the TZUKU project as a postdoctoral researcher, focusing on computing methods for behavioral context analysis in rescue dogs. From 2022 to 2025, he has been a postdoctoral researcher with the Faculty of Sciences at the Universidad Autónoma de San Luis Potosí (UASLP).
+                </p>
+                
+                <h3 class="section-title" style="margin-top: 40px;">Research Interests</h3>
+                <div class="tag-container">
+                    <span class="tag tag-accent">6G Communication Systems</span>
+                    <span class="tag tag-accent">Reconfigurable Intelligent Surfaces (RIS)</span>
+                    <span class="tag tag-accent">Machine Learning</span>
+                    <span class="tag tag-accent">MIMO Signal Detection</span>
+                    <span class="tag tag-accent">Deep Learning</span>
+                    <span class="tag tag-accent">Audio Signal Processing</span>
+                    <span class="tag tag-accent">Cardiac Sound Classification</span>
+                </div>
+
+                <h3 class="section-title" style="margin-top: 40px;">Education & Experience</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 — 2025</div>
+                        <div class="timeline-title">Postdoctoral Fellow</div>
+                        <div class="timeline-institution">Faculty of Sciences, UASLP</div>
+                        <p style="font-size: 13px; margin-top: 5px;">Research on Machine Learning methods for Reconfigurable Intelligent Surface (RIS)-assisted 6G communication systems.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021 — 2022</div>
+                        <div class="timeline-title">Postdoctoral Researcher</div>
+                        <div class="timeline-institution">CICESE (TZUKU Project)</div>
+                        <p style="font-size: 13px; margin-top: 5px;">Research in computing methods for the analysis and classification of behavioral contexts in rescue and assistance dogs.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2018</div>
+                        <div class="timeline-title">Visiting Doctoral Researcher</div>
+                        <div class="timeline-institution">INRIA Rennes, France (PANAMA Team)</div>
+                        <p style="font-size: 13px; margin-top: 5px;">Signal processing methods for automatic audio classification based on sparse representations.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2015 — 2019</div>
+                        <div class="timeline-title">PhD in Telecommunications</div>
+                        <div class="timeline-institution">CICESE, México</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2012 — 2015</div>
+                        <div class="timeline-title">M.Sc. in Telecommunications</div>
+                        <div class="timeline-institution">CICESE, México</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2008 — 2012</div>
+                        <div class="timeline-title">B.Eng. in Electronics & Telecommunications</div>
+                        <div class="timeline-institution">Universidad Autónoma de Zacatecas (UAZ)</div>
+                    </div>
+                </div>
+
+                <h3 class="section-title" style="margin-top: 40px;">Awards & Achievements</h3>
+                <ul class="publication-list" style="padding-left: 0; margin-bottom: 0;">
+                    <li class="publication-item" style="padding-left: 10px; padding-right: 10px;">
+                        <span class="pub-category">National System of Researchers</span>
+                        <h4 style="margin-bottom: 0;">SNI Candidate Level Award (Since 2022)</h4>
+                    </li>
+                    <li class="publication-item" style="padding-left: 10px; padding-right: 10px;">
+                        <span class="pub-category">Fellowship</span>
+                        <h4 style="margin-bottom: 0;">Estancias Postdoctorales por México SEHCITI (2022-2025)</h4>
+                    </li>
+                    <li class="publication-item" style="padding-left: 10px; padding-right: 10px;">
+                        <span class="pub-category">Fellowship</span>
+                        <h4 style="margin-bottom: 0;">Proyecto TZUKU Ciencia de Frontera Postdoctoral Fellow (2021-2022)</h4>
+                    </li>
+                    <li class="publication-item" style="padding-left: 10px; padding-right: 10px;">
+                        <span class="pub-category">Doctoral Visit Scholarship</span>
+                        <h4 style="margin-bottom: 0;">Bourse de Mobilité des Doctorants / Beca Mixta CONAHCYT (2018)</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <footer>
-            <p> &copy; Roilhi Ibarra 2025 </p>
+        <p>&copy; Roilhi Ibarra 2026</p>
     </footer>
 </body>
 </html>

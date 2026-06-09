@@ -3,88 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Roilhi Ibarra | Students </title>
+    <title>Roilhi Ibarra | Students</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/x-icon" href="/img/Logo_RFIH.ico">
 </head>
 <body>
     <div class="horizontal-menu-box">
-    <nav class="horizontal-menu">
+        <nav class="horizontal-menu">
             <ul>
-                <li> <a href="index.html" class="no-style">  HOME  </li>
-                <li> <a href="biography.html" class="no-style"> BIOGRAPHY </a> </li>
-                <li> <a href="research.html" class="no-style"> RESEARCH </a> </li>
-                <li class="horizontal-menu active"> <a href="students.html" class="no-style"> STUDENTS </a> </li>
-                <li> <a href="portfolio.html" class="no-style"> SOFTWARE </a></li>
-                <li> <a href="teaching_tutorials.html" class="no-style"> TEACHING & TUTORIALS </a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="biography.html">BIOGRAPHY</a></li>
+                <li><a href="research.html">RESEARCH</a></li>
+                <li class="active"><a href="students.html">STUDENTS</a></li>
+                <li><a href="portfolio.html">SOFTWARE</a></li>
+                <li><a href="teaching_tutorials.html">TEACHING & TUTORIALS</a></li>
             </ul>
         </nav>
         <div class="slider-container">
-            EN <label class="switch">
-                 <input type="checkbox">
-                 <span class="slider"> </span>
-             </label>
-             ES
-         </div>
+            EN 
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+            ES
+        </div>
     </div>
+
     <div class="content-container">
-            <h2 > Current and past students </h2>
-        <h3> PhD and Postdoctoral </h3>
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                <h3> Leonel Roberto Perea-Trejo <a href="https://github.com/ileonelperea"> [Github] </a></h3>
-                <p> Universidad Autónoma de San Luis Potosí (UASLP), México </p>
-                <p> <i> Development of artificial intelligence algorithms for the 
-                    enhancement of RIS-MIMO aided 6G wireless communications </i> </p>
-            </div>
-            <h3> Master Thesis </h3>
-        </div> 
+        <h2 style="font-size: 36px; margin-bottom: 40px; font-weight: 800; letter-spacing: -0.02em;">Current and Past Students</h2>
         
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                <h3> Andrés Eduardo Flores-Roque </h3>
-                <p> Universidad Autónoma Metropolitana (UAM), México </p>
-                <p> MIMO detection Scheme based on Artificial Intelligence for 6G networks </p>
+        <h3 class="section-title">PhD & Postdoctoral Projects</h3>
+        <div class="grid-2" style="margin-bottom: 40px;">
+            <div class="card">
+                <h3>Leonel Roberto Perea-Trejo</h3>
+                <div class="institution">Universidad Autónoma de San Luis Potosí (UASLP), México</div>
+                <p style="margin-top: 10px; font-style: italic; flex-grow: 1;">
+                    "Development of artificial intelligence algorithms for the enhancement of RIS-MIMO aided 6G wireless communications."
+                </p>
+                <div class="tag-container" style="margin-top: 15px; margin-bottom: 15px;">
+                    <span class="tag tag-accent">6G Communications</span>
+                    <span class="tag tag-accent">RIS-MIMO</span>
+                    <span class="tag">AI Algorithms</span>
+                </div>
+                <a href="https://github.com/ileonelperea" target="_blank" class="btn btn-secondary" style="align-self: flex-start; padding: 8px 16px; font-size: 12px; border-radius: 20px;">
+                    GitHub Profiles &rarr;
+                </a>
             </div>
         </div>
 
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                <h3> Luis Alejandro Franco-Santos <a href="https://github.com/sterlux"> [Github] </a></h3>
-                <p> Centro de Enseñanza Técnica y Superior (CETYS) Ensenada, México </p>
-                <p> Real-time optimization of a traslation tool based on a multimodal functional model </p>
-                <a href="https://github.com/sterlux/SeamlessM4T-For-OBS"> [See thesis code] </a>
+        <h3 class="section-title" style="margin-top: 40px;">Master Thesis Students</h3>
+        <div class="grid-3" style="margin-bottom: 40px;">
+            <!-- Student 1 -->
+            <div class="card">
+                <h3>Andrés Eduardo Flores-Roque</h3>
+                <div class="institution">Universidad Autónoma Metropolitana (UAM), México</div>
+                <p style="margin-top: 10px; font-style: italic; flex-grow: 1;">
+                    "MIMO detection Scheme based on Artificial Intelligence for 6G networks."
+                </p>
+                <div class="tag-container" style="margin-top: 15px; margin-bottom: 0;">
+                    <span class="tag tag-accent">MIMO Detection</span>
+                    <span class="tag">Deep Learning</span>
+                </div>
+            </div>
+            <!-- Student 2 -->
+            <div class="card">
+                <h3>Luis Alejandro Franco-Santos</h3>
+                <div class="institution">CETYS Ensenada, México</div>
+                <p style="margin-top: 10px; font-style: italic; flex-grow: 1;">
+                    "Real-time optimization of a translation tool based on a multimodal functional model."
+                </p>
+                <div class="tag-container" style="margin-top: 15px; margin-bottom: 15px;">
+                    <span class="tag tag-accent">Multimodal NLP</span>
+                    <span class="tag">Model Optimization</span>
+                </div>
+                <div style="display: flex; gap: 8px; margin-top: auto;">
+                    <a href="https://github.com/sterlux" target="_blank" class="btn btn-secondary" style="padding: 8px 14px; font-size: 11px; border-radius: 20px;">
+                        GitHub
+                    </a>
+                    <a href="https://github.com/sterlux/SeamlessM4T-For-OBS" target="_blank" class="btn btn-primary" style="padding: 8px 14px; font-size: 11px; border-radius: 20px;">
+                        Thesis Code
+                    </a>
+                </div>
+            </div>
+            <!-- Student 3 -->
+            <div class="card">
+                <h3>Jorge Uriel Aquino-Ramírez</h3>
+                <div class="institution">Instituto Tecnológico de Tlalnepantla (ITTLA), México</div>
+                <p style="margin-top: 10px; font-style: italic; flex-grow: 1;">
+                    "Development evaluation of neural networks, logistic regression, and random forest using scikit-learn and tensorflow."
+                </p>
+                <div class="tag-container" style="margin-top: 15px; margin-bottom: 0;">
+                    <span class="tag tag-accent">Scikit-Learn</span>
+                    <span class="tag">TensorFlow</span>
+                    <span class="tag">ML Models</span>
+                </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                <h3> Jorge Uriel Aquino-Ramírez </h3>
-                <p> Instituto Tecnológico de Tlalnepantla (ITTLA), México </p>
-                <p> Development evaluation of neural networks, logistic regression and random forest
-                    using scikit-learn and tensorflow </p>
+        <h3 class="section-title" style="margin-top: 40px;">Bachelor Thesis Students</h3>
+        <div class="grid-2" style="margin-bottom: 40px;">
+            <div class="card">
+                <h3>María Itzel Esquivel Posadas</h3>
+                <div class="institution">Universidad Nacional Autónoma de México (UNAM), México</div>
+                <p style="margin-top: 10px; font-style: italic; flex-grow: 1;">
+                    "Design and development of a temperature measurement prototype for monitoring of epicontinental water sources."
+                </p>
+                <div class="tag-container" style="margin-top: 15px; margin-bottom: 15px;">
+                    <span class="tag tag-accent">Hardware Design</span>
+                    <span class="tag">Water Monitoring</span>
+                </div>
+                <div style="display: flex; gap: 8px; margin-top: auto;">
+                    <a href="https://github.com/Itzelep" target="_blank" class="btn btn-secondary" style="padding: 8px 14px; font-size: 11px; border-radius: 20px;">
+                        GitHub
+                    </a>
+                    <a href="https://github.com/Itzelep/Tesis_lic/tree/main" target="_blank" class="btn btn-primary" style="padding: 8px 14px; font-size: 11px; border-radius: 20px;">
+                        Thesis Code
+                    </a>
+                </div>
             </div>
-            <h3> Bachelor Thesis </h3>
         </div>
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                <h3> María Itzel Esquivel Posadas <a href="https://github.com/Itzelep"> [Github] </a></h3>
-                <p> Universidad Nacional Autónoma de México (UNAM), México </p>
-                <p> 
-                Design and development of a temperature measurement prototype for monitoring of epicontinental water sources </p>
-                <a href="https://github.com/Itzelep/Tesis_lic/tree/main"> [See thesis code] </a>
-            </div>
-        </div>
-
     </div>
-    
+
     <footer>
-            <p> &copy; Roilhi Ibarra 2025 </p>
+        <p>&copy; Roilhi Ibarra 2026</p>
     </footer>
 </body>
 </html>

@@ -3,126 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roilhi Ibarra | Numerical Methods </title>
+    <title>Roilhi Ibarra | Numerical Methods Course</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/x-icon" href="/img/Logo_RFIH.ico">
 </head>
 <body>
     <div class="horizontal-menu-box">
-    <nav class="horizontal-menu">
+        <nav class="horizontal-menu">
             <ul>
-                <li> <a href="index.html" class="no-style"> HOME </a> </li>
-                <li> <a href="biography.html" class="no-style"> BIOGRAPHY </a> </li>
-                <li> <a href="research.html" class="no-style"> RESEARCH </a> </li>
-                <li> <a href="students.html" class="no-style"> STUDENTS </a> </li>
-                <li> <a href="portfolio.html" class="no-style"> SOFTWARE </a></li>
-                <li class="horizontal-menu active">  TEACHING & TUTORIALS </li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="biography.html">BIOGRAPHY</a></li>
+                <li><a href="research.html">RESEARCH</a></li>
+                <li><a href="students.html">STUDENTS</a></li>
+                <li><a href="portfolio.html">SOFTWARE</a></li>
+                <li class="active"><a href="teaching_tutorials.html">TEACHING & TUTORIALS</a></li>
             </ul>
         </nav>
         <div class="slider-container">
-            EN <label class="switch">
-                 <input type="checkbox">
-                 <span class="slider"> </span>
-             </label>
-             ES
-         </div>
+            EN 
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+            ES
+        </div>
     </div>
-        <div class="content-container">
-            <h2> Curso de Programación Numérica </h2>
-            <h2> Universidad Autónoma de San Luis Potosí </h2>
-            <h2> Facultad de Ciencias </h2>
-            <h3> Instructores </h3>
-            <ul>
-                <li> <a href="http://pie.fc.uaslp.mx/profesores/fsoria.php" class="no-style"> Dr. Francisco Rubén Castillo Soria </a> </li>
-                <li> <a href="https://roilhi.github.io" class="no-style"> Dr. Roilhi Frajo Ibarra-Hernández </a> </li>
-            </ul>
-            <h3> Objetivo: </h3>
-            <p> Al finalizar el programa, el alumno será capaz de
-            implementar, en un lenguaje de alto nivel, diversos
-            métodos numéricos para la solución de ecuaciones no
-            lineales y polinomios, solución de sistemas de ecuaciones
-            lineales, interpolación, regresión lineal, integración y
-            diferenciación numérica. Además, comprenderá las
-            ventajas y desventajas de cada uno de los métodos en
-            términos de precisión, rapidez de convergencia, y facilidad
-            de implementación </p>
 
-            <h3> Prerequisitos </h3>
-            <p> Este curso requiere que el estudiante haya acreditado y domine los
-                conceptos básicos de los siguientes cursos:
-                <ul>
-                    <li> Programación básica </li>
-                    <li> Álgebra matricial </li>
+    <div class="content-container">
+        <!-- Course Header -->
+        <div style="margin-bottom: 40px;">
+            <span class="pub-category">Curso Académico</span>
+            <h2 style="font-size: 36px; font-weight: 800; letter-spacing: -0.02em; margin-top: 5px;">Programación Numérica</h2>
+            <h4 style="color: var(--accent); font-weight: 500; font-size: 18px; margin-top: 5px;">Universidad Autónoma de San Luis Potosí</h4>
+            <div style="color: var(--text-muted); font-size: 14px; font-weight: 600; margin-top: 3px;">Facultad de Ciencias</div>
+        </div>
+
+        <div class="grid-2" style="margin-bottom: 40px; align-items: stretch;">
+            <!-- Instructors & Info -->
+            <div class="card">
+                <h3 style="font-size: 18px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; margin-bottom: 15px;">Instructores</h3>
+                <ul style="list-style-type: none; display: flex; flex-direction: column; gap: 10px;">
+                    <li>
+                        <strong>Dr. Francisco Rubén Castillo Soria</strong>
+                        <div style="font-size: 13px; color: var(--text-muted);"><a href="http://pie.fc.uaslp.mx/profesores/fsoria.php" target="_blank">Perfil Académico &rarr;</a></div>
+                    </li>
+                    <li>
+                        <strong>Dr. Roilhi Frajo Ibarra-Hernández</strong>
+                        <div style="font-size: 13px; color: var(--text-muted);"><a href="https://roilhi.github.io">Sitio Web Personal &rarr;</a></div>
+                    </li>
                 </ul>
-                de igual manera, que conozca los conceptos básicos de Cálculo Diferencial e Integral.
-            </p>
-            <a href="https://drive.google.com/file/d/1qEapd7vXj5NdhjTUEgRYUnUVDquh93SG/view?usp=sharing"> Descargar Reglamento </a>
-            <br>
-            <h3> Contenido y materiales de estudio </h3>
+                <div style="margin-top: auto; padding-top: 20px;">
+                    <a href="https://drive.google.com/file/d/1qEapd7vXj5NdhjTUEgRYUnUVDquh93SG/view?usp=sharing" target="_blank" class="btn btn-secondary" style="width: 100%; font-size: 13px; border-radius: 10px; padding: 10px;">
+                        Descargar Reglamento del Curso &darr;
+                    </a>
+                </div>
+            </div>
+
+            <!-- Objectives & Prerequisites -->
+            <div class="card">
+                <h3 style="font-size: 18px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; margin-bottom: 15px;">Objetivo del Curso</h3>
+                <p style="font-size: 14px; line-height: 1.5; margin-bottom: 15px;">
+                    Al finalizar el programa, el alumno será capaz de implementar, en un lenguaje de alto nivel, diversos métodos numéricos para la solución de ecuaciones no lineales, sistemas de ecuaciones lineales, interpolación, regresión, integración y diferenciación numérica, comprendiendo sus ventajas en precisión y rapidez de convergencia.
+                </p>
+                <h3 style="font-size: 16px; margin-bottom: 10px;">Prerrequisitos</h3>
+                <div class="tag-container" style="margin-bottom: 0;">
+                    <span class="tag">Programación Básica</span>
+                    <span class="tag">Álgebra Matricial</span>
+                    <span class="tag">Cálculo Diferencial e Integral</span>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="section-title">Contenido y Materiales de Estudio</h3>
+        
+        <div class="table-responsive">
             <table class="study-materials">
                 <thead>
                     <tr>
-                        <th> Unidad # </th>
-                        <th> Tema </th>
-                        <th> Slides </th>
-                        <th> Ejemplos y adicionales </th>
+                        <th style="width: 80px;">Unidad</th>
+                        <th>Tema del Curso</th>
+                        <th>Diapositivas (Slides)</th>
+                        <th>Ejemplos, Videos y Adicionales</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td> 1 </td>
-                        <td> Introducción a los métodos numéricos </td>
-                        <td> <a href="https://drive.google.com/file/d/17c0hYU1NctzjRnMnD9pdFx81hmEKbcV2/view?usp=sharing"> [PDF] </a> </td>
-                        <td> </td>
+                        <td style="font-weight: 700; color: var(--accent);">1</td>
+                        <td><strong>Introducción a los métodos numéricos</strong></td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/17c0hYU1NctzjRnMnD9pdFx81hmEKbcV2/view?usp=sharing" target="_blank" class="pill-link">Slides [PDF]</a>
+                        </td>
+                        <td>&mdash;</td>
                     </tr>
                     <tr>
-                        <td> 2 </td>
-                        <td> Introducción a MATLAB y Python </td>
-                        <td> <a href="https://drive.google.com/file/d/1oPokaVYqvm5b1Y6SzPWs5PudvtNtxpf2/view?usp=drive_link">[MATLAB]</a> 
-                            <a href="https://drive.google.com/file/d/1GMAoxf8OCRbof5qRhD2lZzy4woEkNNp7/view?usp=drive_link"> [Python]  </a> </td>
-                        <td> <a href="https://drive.google.com/drive/folders/1uKaD18E3aZqyQ4vdjO8d2kF6JUDrjD1O?usp=drive_link">[MATLAB]</a> 
-                        <a href="https://drive.google.com/drive/folders/1LI5CxjHcgmQEQckwOokWnSWeX-F3F__3?usp=drive_link"> [Python] </a></td>
-                    </tr>
-                    <tr>
-                        <td> 3 </td>
-                        <td> Solución a ecuaciones no lineales (raíces) </td>
-                        <td><a href="https://drive.google.com/file/d/1-RMEAz70z-EgcZc2Dg9gd3GgaTVnFZ-J/view?usp=drive_link"> [Parte 1] </a>
-                        <a href="https://drive.google.com/file/d/1Uw7v2IOz0xR9o7JATsHSB_PUWQioQuSW/view?usp=drive_link">[Parte 2] </a></td>
-                        <td><a href="https://www.youtube.com/live/X2Osytcx8qA?si=Rbk9XoEmhulVch2K"> [VIDEO RFIH] </a>
-                        <a href="https://youtu.be/jPPi-XBvxK8?si=fCXGGs7hPVnmsTUM">[VIDEO BISECCION] </a>
-                        <a href="https://youtu.be/pBuhN4ju6bs?si=VXcQGQNZuvW0xf6x">[VIDEO NEWTON]</a>
+                        <td style="font-weight: 700; color: var(--accent);">2</td>
+                        <td><strong>Introducción a MATLAB y Python</strong></td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1oPokaVYqvm5b1Y6SzPWs5PudvtNtxpf2/view?usp=drive_link" target="_blank" class="pill-link">MATLAB Slides</a>
+                            <a href="https://drive.google.com/file/d/1GMAoxf8OCRbof5qRhD2lZzy4woEkNNp7/view?usp=drive_link" target="_blank" class="pill-link">Python Slides</a>
+                        </td>
+                        <td>
+                            <a href="https://drive.google.com/drive/folders/1uKaD18E3aZqyQ4vdjO8d2kF6JUDrjD1O?usp=drive_link" target="_blank" class="pill-link">MATLAB Workspace</a>
+                            <a href="https://drive.google.com/drive/folders/1LI5CxjHcgmQEQckwOokWnSWeX-F3F__3?usp=drive_link" target="_blank" class="pill-link">Python Workspace</a>
                         </td>
                     </tr>
                     <tr>
-                        <td> 4 </td>
-                        <td> Solución a sistemas de ecuaciones lineales </td>
-                        <td><a href="https://drive.google.com/file/d/1hB9VD0Mdn3CqR0rq8XF9f8L84YajTQ0w/view?usp=drive_link">[PARTE 1] </a> 
-                        <a href="https://drive.google.com/file/d/1lsfj3Hgo-KmGUrOlL4c-U9EqaoIL9zmB/view?usp=drive_link">[PARTE 2] </a> </td>
-                        <td> <a href="https://www.youtube.com/live/UV6WYhthq7k?si=6f2W3h4fDR6ngD9l">[VIDEO RFIH]</a>
-                             <a href="https://youtu.be/APoAx4Ep9_w?si=lDNO7LyXQPGnSCJs"> [GAUSS-CRAMER] </a>
-                            <a href="https://youtu.be/-wOE7Jh7XOo?si=698S_wrjjM6zb9iW">[GAUSS-SEIDEL] </a></td>
+                        <td style="font-weight: 700; color: var(--accent);">3</td>
+                        <td><strong>Solución a ecuaciones no lineales (raíces)</strong></td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1-RMEAz70z-EgcZc2Dg9gd3GgaTVnFZ-J/view?usp=drive_link" target="_blank" class="pill-link">Slides Parte 1</a>
+                            <a href="https://drive.google.com/file/d/1Uw7v2IOz0xR9o7JATsHSB_PUWQioQuSW/view?usp=drive_link" target="_blank" class="pill-link">Slides Parte 2</a>
+                        </td>
+                        <td>
+                            <a href="https://www.youtube.com/live/X2Osytcx8qA?si=Rbk9XoEmhulVch2K" target="_blank" class="pill-link pill-link-video">Video RFIH</a>
+                            <a href="https://youtu.be/jPPi-XBvxK8?si=fCXGGs7hPVnmsTUM" target="_blank" class="pill-link pill-link-video">Video Bisección</a>
+                            <a href="https://youtu.be/pBuhN4ju6bs?si=VXcQGQNZuvW0xf6x" target="_blank" class="pill-link pill-link-video">Video Newton</a>
+                        </td>
                     </tr>
                     <tr>
-                        <td> 5 </td>
-                        <td> Derivación e integración numéricas </td>
-                        <td> <a href="https://drive.google.com/file/d/1qhrOVh3eCD6nT4ccmGABZCGlnyqC4iPS/view?usp=drive_link">[PDF]</a></td>
-                        <td> <a href="https://www.youtube.com/live/oDrpEQtf7Hc?si=hzCvR6RIxA5y_4jT">[Video RFIH]</a> <a href="https://youtu.be/uIov9jVbYZo?si=6Tq4oVATsa8DcGKZ">[Derivación]</a> <a href="https://youtu.be/IfeMYGecfdU?si=j5w4KmskY7rWvCJy">[Trapecio]</a> <a href="https://youtu.be/5xhHTIX6ntM?si=KyppLZ2tlp717M_w">[Simpson]</a></td>
+                        <td style="font-weight: 700; color: var(--accent);">4</td>
+                        <td><strong>Solución a sistemas de ecuaciones lineales</strong></td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1hB9VD0Mdn3CqR0rq8XF9f8L84YajTQ0w/view?usp=drive_link" target="_blank" class="pill-link">Slides Parte 1</a>
+                            <a href="https://drive.google.com/file/d/1lsfj3Hgo-KmGUrOlL4c-U9EqaoIL9zmB/view?usp=drive_link" target="_blank" class="pill-link">Slides Parte 2</a>
+                        </td>
+                        <td>
+                            <a href="https://www.youtube.com/live/UV6WYhthq7k?si=6f2W3h4fDR6ngD9l" target="_blank" class="pill-link pill-link-video">Video RFIH</a>
+                            <a href="https://youtu.be/APoAx4Ep9_w?si=lDNO7LyXQPGnSCJs" target="_blank" class="pill-link pill-link-video">Video Gauss-Cramer</a>
+                            <a href="https://youtu.be/-wOE7Jh7XOo?si=698S_wrjjM6zb9iW" target="_blank" class="pill-link pill-link-video">Video Gauss-Seidel</a>
+                        </td>
                     </tr>
                     <tr>
-                        <td> 6 </td>
-                        <td> Interpolación y regresión numéricas </td>
-                        <td> <a href="https://drive.google.com/file/d/1hhXdKedI4ppLxXXJPtWZdIczBbt6ApGS/view?usp=drive_link"> [INTERPOLACIÓN]</a>
-                             <a href="https://drive.google.com/file/d/1qNF6uGxPR_nx-kiX_E1IAf64eTy5dLhx/view?usp=drive_link"> [REGRESIÓN] </a></td>
-                        <td> <a href="https://youtu.be/VQj9MEcG_vs?si=cm4Pin3rvLfjBsRN">[V-INTERPOLACION]</a> <a href="https://youtu.be/XSpYGe4u9aY?si=vTmlYF2qvygbCWBU">[V-REGRESION]</a></td>
+                        <td style="font-weight: 700; color: var(--accent);">5</td>
+                        <td><strong>Derivación e integración numéricas</strong></td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1qhrOVh3eCD6nT4ccmGABZCGlnyqC4iPS/view?usp=drive_link" target="_blank" class="pill-link">Slides [PDF]</a>
+                        </td>
+                        <td>
+                            <a href="https://www.youtube.com/live/oDrpEQtf7Hc?si=hzCvR6RIxA5y_4jT" target="_blank" class="pill-link pill-link-video">Video RFIH</a>
+                            <a href="https://youtu.be/uIov9jVbYZo?si=6Tq4oVATsa8DcGKZ" target="_blank" class="pill-link pill-link-video">Video Derivación</a>
+                            <a href="https://youtu.be/IfeMYGecfdU?si=j5w4KmskY7rWvCJy" target="_blank" class="pill-link pill-link-video">Video Trapecio</a>
+                            <a href="https://youtu.be/5xhHTIX6ntM?si=KyppLZ2tlp717M_w" target="_blank" class="pill-link pill-link-video">Video Simpson</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 700; color: var(--accent);">6</td>
+                        <td><strong>Interpolación y regresión numéricas</strong></td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1hhXdKedI4ppLxXXJPtWZdIczBbt6ApGS/view?usp=drive_link" target="_blank" class="pill-link">Interpolación Slides</a>
+                            <a href="https://drive.google.com/file/d/1qNF6uGxPR_nx-kiX_E1IAf64eTy5dLhx/view?usp=drive_link" target="_blank" class="pill-link">Regresión Slides</a>
+                        </td>
+                        <td>
+                            <a href="https://youtu.be/VQj9MEcG_vs?si=cm4Pin3rvLfjBsRN" target="_blank" class="pill-link pill-link-video">Video Interpolación</a>
+                            <a href="https://youtu.be/XSpYGe4u9aY?si=vTmlYF2qvygbCWBU" target="_blank" class="pill-link pill-link-video">Video Regresión</a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
-
-            <!-- HTML !-->
-    <button class="button-6" role="button"> <a href="teaching_tutorials.html" class="no-style"> Go Back to courses </a> </button>
-
-
-
         </div>
+
+        <div style="margin-top: 40px; margin-bottom: 40px;">
+            <a href="teaching_tutorials.html" class="btn btn-secondary">
+                &larr; Volver a Cursos
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Roilhi Ibarra 2026</p>
+    </footer>
 </body>
 </html>
