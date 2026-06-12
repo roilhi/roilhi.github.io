@@ -563,6 +563,15 @@ input:checked + .slider:before {
     padding-left: 15px;
 }
 
+.thesis-co-supervisor {
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    margin: 0 0 18px 0;
+    padding-left: 15px;
+    border-left: 3px solid var(--accent);
+}
+
 .publication-list {
     list-style-type: none;
     margin: 20px 0 40px 0;
